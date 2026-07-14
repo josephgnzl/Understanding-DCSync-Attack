@@ -24,7 +24,7 @@ Privilege Escalation
       ↓
 Replication Rights
       ↓
-DCSync (secretsdump.py)
+   DCSync 
       ↓
 NTLM Hash Extraction
       ↓
