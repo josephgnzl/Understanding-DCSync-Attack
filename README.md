@@ -15,3 +15,18 @@ Domain           : RAYNEX.LAB
 Tools            : Impacket, PowerView
 
 ```
+## Attack Flow
+
+```
+Enumeration
+        ↓
+Privilege Discovery
+        ↓
+Replication Rights
+        ↓
+DCSync
+        ↓
+Credential Extraction
+        ↓
+Domain Compromise
+```
