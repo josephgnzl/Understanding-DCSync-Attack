@@ -24,7 +24,7 @@ Privilege Escalation
       ↓
 Replication Rights
       ↓
-   DCSync 
+DCSync 
       ↓
 NTLM Hash Extraction
       ↓
