@@ -1,9 +1,13 @@
-# What Is DCSync Attack and Why Is It Important for AD Administrators?
+## Understanding-DCSync-Attack
 
-The DCSync attack is a technique that abuses legitimate Active Directory replication functionality to request sensitive directory information from a Domain Controller.
+A hands-on guide to understanding and performing the DCSync attack in a controlled Active Directory lab.
 
-In a normal Active Directory environment, Domain Controllers constantly replicate directory data between each other to maintain consistency across the domain. This replication process is essential for authentication, user management, and overall domain operation.
+This repository explains how Active Directory replication works, why DCSync is one of the most powerful post-exploitation techniques, and demonstrates the attack using Impacket against a Windows Server domain.
 
-However, when an account receives excessive replication privileges, an attacker who compromises that account can abuse these permissions and request directory data as if they were another Domain Controller. This can expose highly sensitive information related to user authentication, including credentials used within the domain.
+## What is DCSync?
 
-DCSync is not based on exploiting a software vulnerability. Instead, it takes advantage of excessive privileges, weak access controls, and poor identity management practices within Active Directory.
+DCSync is an Active Directory attack that abuses the Domain Replication Service (DRS) to request credential data from a Domain Controller.
+
+Instead of dumping credentials from memory or extracting the NTDS.dit database, an attacker impersonates a legitimate Domain Controller and requests replication data through Microsoft's own replication protocol.
+
+If the compromised account has the required replication permissions, the Domain Controller willingly returns password hashes.
