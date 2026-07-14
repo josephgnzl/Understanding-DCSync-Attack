@@ -31,3 +31,14 @@ In some environments, delegated service accounts may also receive these permissi
 If an attacker compromises an account with replication privileges, they can impersonate a Domain Controller and request credential data without accessing the NTDS.dit database or dumping LSASS.
 
 Windows considers the request legitimate because the account is authorized to replicate directory information.
+
+## How Can We Identify These Permissions?
+
+During an Active Directory assessment, replication rights can be identified using tools such as:
+
+- BloodHound
+- PowerView
+- PowerShell
+- Active Directory Users and Computers (Advanced Features)
+
+BloodHound is especially useful because it visualizes privilege relationships and quickly highlights accounts capable of performing a DCSync attack.
