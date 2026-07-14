@@ -34,3 +34,8 @@ Evil-WinRM
       ↓
 Administrative Access
 ```
+## Goal
+
+Understand why DCSync is considered one of the most impactful Active Directory attacks.
+
+> **Disclaimer:** This repository is intended for educational purposes and authorized security assessments only.
