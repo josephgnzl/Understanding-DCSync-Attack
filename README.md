@@ -1,4 +1,4 @@
-# What Is the DCSync Attack and Why Is It Important for AD Administrators?
+# What Is DCSync Attack and Why Is It Important for AD Administrators?
 
 The DCSync attack is a technique that abuses legitimate Active Directory replication functionality to request sensitive directory information from a Domain Controller.
 
