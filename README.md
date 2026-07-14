@@ -15,18 +15,22 @@ Domain           : RAYNEX.LAB
 Tools            : Impacket, PowerView
 
 ```
-## Attack Flow
+## Attack Chain
 
-```
+```text
 Enumeration
-        ↓
-Privilege Discovery
-        ↓
+      ↓
+Privilege Escalation
+      ↓
 Replication Rights
-        ↓
-DCSync
-        ↓
-Credential Extraction
-        ↓
-Domain Compromise
+      ↓
+DCSync (secretsdump.py)
+      ↓
+NTLM Hash Extraction
+      ↓
+Pass-the-Hash
+      ↓
+Evil-WinRM
+      ↓
+Administrative Access
 ```
