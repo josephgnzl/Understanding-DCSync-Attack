@@ -47,7 +47,7 @@ In addition to NTLM hashes, the attack also retrieved:
 
 ## Impact
 
-A successful DCSync attack allows an attacker to retrieve authentication material for virtually every account in the domain.
+A successful DCSync attack allows an attacker to retrieve authentication material for every account in the domain.
 
 No files were copied from the Domain Controller, and LSASS was never accessed.
 
