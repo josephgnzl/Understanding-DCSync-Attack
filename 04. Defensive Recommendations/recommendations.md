@@ -8,7 +8,7 @@
 - Audit changes to privileged groups and Active Directory ACLs.
 - Protect privileged accounts with strong passwords and Multi-Factor Authentication (MFA).
 
-Following these best practices significantly reduces the risk of a successful DCSync attack.
+These practices significantly reduces the risk of a successful DCSync attack.
 
 Thank you for taking the time to read this repository.
 
