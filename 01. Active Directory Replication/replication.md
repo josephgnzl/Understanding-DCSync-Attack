@@ -28,7 +28,7 @@ Instead of exploiting a vulnerability, an attacker impersonates a trusted Domain
 
 If the account has replication rights, Windows treats the request as legitimate and returns credential information.
 
-The attack succeeds because of excessive privileges—not because Active Directory is vulnerable.
+The attack succeeds because of excessive privileges, not because Active Directory is vulnerable.
 
 ## Key Takeaways
 
